@@ -24,8 +24,8 @@ class LiveScoreService : Service() {
         val initialNotification = NotificationHelper.buildNotification(
             this,
             MatchScore(
-                leftFlagRes = R.mipmap.ic_launcher,
-                rightFlagRes = R.mipmap.ic_launcher,
+                leftFlagRes = R.drawable.flag_argentina,
+                rightFlagRes = R.drawable.flag_france,
                 leftScore = 0,
                 rightScore = 0,
                 statusLine1 = "Starting...",

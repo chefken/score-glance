@@ -32,8 +32,8 @@ class ScoreSimulator(private val onUpdate: (MatchScore) -> Unit) {
 
         onUpdate(
             MatchScore(
-                leftFlagRes = R.mipmap.ic_launcher,
-                rightFlagRes = R.mipmap.ic_launcher,
+                leftFlagRes = R.drawable.flag_argentina,
+                rightFlagRes = R.drawable.flag_france,
                 leftScore = leftScore,
                 rightScore = rightScore,
                 statusLine1 = time,
